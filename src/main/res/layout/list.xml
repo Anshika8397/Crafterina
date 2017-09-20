@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:id="@+id/iv_icon"></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quilling Earings"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:id="@+id/tv_name"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="250 Rs."
+        android:textSize="16sp"
+        android:textColor="#180101"
+        android:layout_below="@id/tv_name"
+        android:id="@+id/tv_price"/>
+</RelativeLayout>

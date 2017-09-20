@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.apkglobal.handycraft">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/crafterinaimg"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.apkglobal.handycraft.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.apkglobal.handycraft.MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.apkglobal.handycraft.AboutActivity" />
+        <activity
+            android:name="com.apkglobal.handycraft.AccessoriesActivity"
+            android:label="@string/title_activity_accessories"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.apkglobal.handycraft.DecorActivity"
+            android:label="@string/title_activity_decor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.apkglobal.handycraft.ClothingActivity"
+            android:label="@string/title_activity_clothing"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.apkglobal.handycraft.AboutActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="gravity"
+        android:textColor="#3d0303"
+        android:text="This App Crafterina is designed to sell handmade
+        craft items at reasonable prices for the creative
+         minds who needs an online plateform to sell their
+          creative items.
+          This App is dedicated to a girl named Asmeka Jain
+          from a very small town in Madhya Pradesh.The idea
+           was developed to bring her creativity before the world.
+            Anybody can sell their items on this
+           app but you need to get permission from the admin .
+           You can send a mail to the admin including images
+            of your designed items.You can order your things,
+            you can call us by clicking on  call button,
+            you can order through mail also.
+            You can do the payment through Paytm also on our mobile
+            number 9425626398 with a comment of your order.
+Please Do share our app to maximum so that everyone can be profitted from it."/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/crafterinaimg"/>
+</LinearLayout>

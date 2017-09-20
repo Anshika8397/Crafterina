@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Crafterina</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_accessories">AccessoriesActivity</string>
+    <string name="title_activity_decor">DecorActivity</string>
+    <string name="title_activity_clothing">ClothingActivity</string>
+</resources>
